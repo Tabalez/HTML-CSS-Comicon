@@ -1,0 +1,62 @@
+.pre_header{
+    align-items: center;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 60% 33% 7%;
+    grid-template-areas: 
+    "header1 header2 header3" ;
+}
+.pre_header nav{
+    display:none
+}
+.pre_header1{
+    font-size: large;
+}
+.pre_header img{
+    height: 18px;
+    width: 18px;
+}
+.lingua{
+    font-size: large;
+}
+.orange_button{
+    display: none;
+}
+.nav_bar{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 55% 10% 35%;
+    grid-template-areas: 
+    "header header2 header3";
+}
+.hamburger{
+    grid-area: header3;
+}
+.titolo{
+    width: 70%;
+}
+.titolo h1{
+    font-weight: 100;
+    color: #fffcf3;
+    font-size: 60px;
+
+}
+.paragrafo_home{
+    font-size:30px ;
+}
+
+
+/* griglia merda */
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4,25%);
+    flex-wrap: wrap;
+    border-collapse: collapse;
+  
+}
+.condividi_noi{
+    display: flex;
+    flex-wrap: wrap;
+   
+}

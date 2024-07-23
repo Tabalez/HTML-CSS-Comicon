@@ -1,0 +1,14 @@
+.pre_header{
+    align-items: center;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 55% 20% 20% 5%;
+    grid-template-areas: 
+    "header1 header2 header3 header4" ;
+}
+.nav_bar{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 40% 40% 15%;
+  
+}
